@@ -1,0 +1,34 @@
+# baseURL = "https://school.deuo.one/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Deuo Network - School Links"
+copyright = "ZenDeuo ©2023"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+name = "ZenDeuo"
+headline = "Your One-Stop Shop For Quick Redirects At School ^-^"
+image = "author.jpg"  # path relative to static directory
+
+  links = [
+  	{ link = { href = "https://docs.google.com/a/kingarthurs.org.uk", text = "Google Docs", icon = "link" } },
+	{ link = { href = "https://classroom.google.com/a/kingarthurs.org.uk", text = "Google Classroom", icon = "link" } },
+	{ link = { href = "https://office.com/login", text = "Microsoft Office 365", icon = "link" } },
+	{ link = { href = "https://adfs.sast.org.uk/adfs/ls/?SAMLRequest=rVJdb9swDPwrht5txU6dJkISIG02NEC7GU3ah70UjMw0Qm3JE6lm%2B%2Ffzx4p2KJCnPQk48Y7HI%2BcEddWoVeCjvcefAYmjX3VlSfUfCxG8VQ7IkLJQIynWaru6u1VZMlKNd%2By0q8QHynkGEKFn46yINuuFeILp5URPx%2BklTvbpPs1Ra51PZzBLs0OZ4SSdjFHPLnCai%2BgRPbXMhWiFWjpRwI0lBsstNMrG8SiPR%2BNdlqlspvKLHyJat9MYC9yzjswNKSmhPFBCQJw4%2F5yElx6QFUkRrd7cXTtLoUa%2FRf9qND7c377zjWUPFjl5MfYZPB%2BDpzeprambCrtpi5tCnk4nWbsyVJg0x0Z26Uga3iwGTT26vnr6UgYNQyjF30SvjC1b%2BfNh7ociUje7XREX37c7sZx36qoPxy%2F%2Fm%2BUaGUpg%2BOR4Lj%2F2mw%2FH9K11ulkXrjL6d%2FTV%2BRr4%2FCAdYsr40JeqzisZtNwupKrc6dojMC4E%2B4BCLoeW%2F57s8g8%3D&RelayState=https%3A%2F%2Fintranet.kingarthurs.org.uk%2F&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=O4qvn%2BBZ9wHvnsDfOLmz%2FEEqpxuDDJcF4u8fuZpyHgF0ofcqFlKFp9Eqhi%2F3qxyXh5z6Chg%2F92qc8UPj35GlbjN3oVJVxbLV6lzLSlEYnhf2%2FdsJxYejrXTVqWEmvFiGVj2sntY4lgMvjc6Bo8zl2RoewoC19ceNvSnixZEwd0fV3T3vf8yUgSyNC6lyYe448UxiAuOny6icrOSw6r53CN5U%2BzfyfBFnbaNtOg40OiEk%2B4368jfD%2FzOa8Btd%2FHp5UdBlOB4QLG9tBSHJr5M6Jw0%2FV2apNAP2yV9ON1Aq5iynrb839TQAzU%2FWzpoH0GCW0UEVIryFTEpl1HMswQCKpXcuCbzQyutRUR7JvOEdwVoo0w7iy1Z2B7IjMu0dQ5LbTj%2BLNP%2FG%2Fsy8gu6OWB%2BZhAtIn2nO4tUhiR0pcUB8XLS7wUP2WSnjTu%2Fx%2BH2CLscnF8dlTfM%2FWGK855unyEPhItRQOmCnLr3CIEMF8HHh7%2BSszS6R%2BC2DJbWTFiE5FwXoykF%2Bzt8ycXQFV6XqN%2BRxu8STKlLJ6p%2BlClbVX7eCFJ80ihW1wdaGSPWA7shwyzOA%2FLyPVkm3umGvV%2FBKC%2BS2lGvsgaYKDqwNY26asPr9qaDzsyt7LeKrw4Kgnh9I2y0EebwtnuDySD55VnOSAyxC4Uhke3Nw8prHR42Nqf97pSU%3D", text = "Intranet", icon = "link" } },
+	{ link = { href = "https://intranet.kingarthurs.org.uk/StudentProfile", text = "Student Profile", icon = "link" } },
+	{ link = { href = "https://intranet.kingarthurs.org.uk/StudentProfile/timetable.html", text = "Timetable - Student Profile", icon = "link" } },
+	{ link = { href = "https://files.sast.org.uk/home", text = "Foldr", icon = "link" } },
+	{ link = { href = "https://members.gcsepod.com/podauth/sso/kingarthurs", text = "GCSE Pod", icon = "link" } },
+	{ link = { href = "https://www.doddlelearn.co.uk/app/login", text = "Doddle Learn", icon = "link" } },
+	{ link = { href = "https://app.senecalearning.com/login", text = "Seneca Learning", icon = "link" } },
+	{ link = { href = "https://kingarthurs.org.uk", text = "KA Landing Page", icon = "link" } },
+	{ link = { href = "http://status.sast.org.uk", text = "KA & Other Server Stats", icon = "link" } },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
