@@ -9,7 +9,7 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [author]
-name = "ZenDeuo"
+name = "ZenDeuo - School Redirects"
 headline = "Your One-Stop Shop For Quick Redirects At School ^-^"
 image = "author.jpg"  # path relative to static directory
 
