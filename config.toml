@@ -21,7 +21,7 @@ image = "author.jpg"  # path relative to static directory
 	{ link = { href = "https://intranet.kingarthurs.org.uk/StudentProfile", text = "Student Profile", icon = "link" } },
 	{ link = { href = "https://intranet.kingarthurs.org.uk/StudentProfile/timetable.html", text = "Timetable - Student Profile", icon = "link" } },
 	{ link = { href = "https://files.sast.org.uk/home", text = "Foldr", icon = "link" } },
-	{ link = { href = "https://members.gcsepod.com/podauth/sso/kingarthurs", text = "GCSE Pod", icon = "link" } },
+	{ link = { href = "https://members.gcsepod.com/login", text = "GCSE Pod", icon = "link" } },
 	{ link = { href = "https://www.doddlelearn.co.uk/app/login", text = "Doddle Learn", icon = "link" } },
 	{ link = { href = "https://app.senecalearning.com/login", text = "Seneca Learning", icon = "link" } },
 	{ link = { href = "https://kingarthurs.org.uk", text = "KA Landing Page", icon = "link" } },
